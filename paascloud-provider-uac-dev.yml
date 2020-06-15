@@ -24,11 +24,11 @@ pagehelper:
   supportMethodsArguments: true
   params: count=countSql
 
-liquibase:
-  change-log: classpath:liquibase/index.xml
-  user: ${spring.datasource.username}
-  password: ${spring.datasource.password}
-  url: ${spring.datasource.url}
+#liquibase:
+  #change-log: classpath:liquibase/index.xml
+  #user: ${spring.datasource.username}
+  #password: ${spring.datasource.password}
+  #url: ${spring.datasource.url}
 
 security:
   oauth2:
